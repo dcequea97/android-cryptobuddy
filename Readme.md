@@ -37,8 +37,6 @@ This project is a minimal, well-structured example for fetching cryptocurrency d
   <img src="images/detail.jpg" alt="Detail view image" style="width:220px;height:auto;border-radius:8px;object-fit:cover;" />
 </div>
 
-Note: Adjust the width in the inline style to change image size. Use percentages for responsive layouts (e.g., width:48%).
-
 ## Caching (current implementation)
 - The repository maintains an in-memory cache of the last fetched results and also persists those results to Room. A last-fetch timestamp is recorded via TimeProvider.
 - TTL policy: cached data is considered fresh for 15 minutes. If a request arrives while the cache is fresh, the repository immediately returns the cached data without performing a network call.
