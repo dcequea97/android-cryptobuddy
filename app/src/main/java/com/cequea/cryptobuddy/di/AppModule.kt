@@ -23,7 +23,7 @@ val appModule = module {
     single {
         Interceptor { chain ->
             val request = chain.request().newBuilder()
-//                .addHeader("X-CMC_PRO_API_KEY", "SET-HERE-YOUR-COINMARKET-KEY")
+                .addHeader("X-CMC_PRO_API_KEY", "APIKEY")
                 .build()
             chain.proceed(request)
         }

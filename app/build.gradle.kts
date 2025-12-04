@@ -71,6 +71,7 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     testImplementation(libs.androidx.room.testing)
     implementation(libs.androidx.room.paging)
+    testImplementation(libs.kotlinx.coroutines.test)
 
 
     implementation(libs.koin.android)
