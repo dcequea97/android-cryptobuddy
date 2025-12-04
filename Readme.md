@@ -33,8 +33,8 @@ This project is a minimal, well-structured example for fetching cryptocurrency d
 
 <!-- Inline HTML to display images at controlled size for README viewers -->
 <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:12px;">
-  <img src="images/list.jpg" alt="List view image" style="width:320px;height:auto;border-radius:8px;object-fit:cover;" />
-  <img src="images/detail.jpg" alt="Detail view image" style="width:320px;height:auto;border-radius:8px;object-fit:cover;" />
+  <img src="images/list.jpg" alt="List view image" style="width:220px;height:auto;border-radius:8px;object-fit:cover;" />
+  <img src="images/detail.jpg" alt="Detail view image" style="width:220px;height:auto;border-radius:8px;object-fit:cover;" />
 </div>
 
 Note: Adjust the width in the inline style to change image size. Use percentages for responsive layouts (e.g., width:48%).
